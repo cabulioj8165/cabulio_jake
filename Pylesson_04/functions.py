@@ -10,7 +10,7 @@ number = 69789.312
 
 printf(word, number)
 
-word = "ohbo!"
+word = "ohboy!"
 number = 8879653.24858
 
 printf(word, number)
