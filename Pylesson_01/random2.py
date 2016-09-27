@@ -1,6 +1,0 @@
-i = input("This is a rectangle surface area calculator. Press enter.")
-l = int(input("Please enter the length of the rectangle:"))
-w = int(input("Please enter the width of the rectangle:"))
-h = int(input("Please enter the height of the rectangle:"))
-print("")
-print("The surface area of the rectangle is " , 2wl + 2lh + 2hw)

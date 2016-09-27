@@ -1,0 +1,11 @@
+1. How do you begin writing a program? 
+When you declare a variable in Python, you havve to recognize its scope.
+What does a program file consist of?
+A program 
+Do you need fancy development software? Why? 
+Why does the method need to be at the top of most of the programs that we have created so far?
+How does Python run lines of code?
+Why do we need parameters? 
+How do they enhance our use of methods? 
+What do they enable use to do? 
+What is the difference between return methods and the other kind of method we used? 
