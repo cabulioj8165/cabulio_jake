@@ -4,7 +4,7 @@ width = float(input("Enter the width of the rectangle: "))
 perim = 2*(length + width)
 
 def calcPerim():
-    print(perim)
+    print("The perimeter is " , perim)
 
 
 calcPerim()
