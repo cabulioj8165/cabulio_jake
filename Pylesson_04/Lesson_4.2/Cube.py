@@ -1,4 +1,3 @@
-
 length = float(input("Enter the length of the cube: "))
 
 sa = length**2 * 6
