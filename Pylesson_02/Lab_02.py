@@ -23,3 +23,4 @@ h = int(input("15"))
 
 Area = (2 * w * l) + (2 * l * h) + (2 * h * w)
 
+print("The surface area of your rectangle is" , Area)
