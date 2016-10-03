@@ -1,3 +1,4 @@
+
 x = input("My name is RudeAI. I would like to ask you a few questions. Press enter.")
 name = input("What is your name?")
 print("Your name is " , name , "?!! Why would anyone name you that?")
@@ -15,4 +16,4 @@ siblings = input("How many siblings do you have " + name + "?")
 print(siblings + "? Wowww, I bet you're the ugliest one out of them!!")
 print("")
 job = input("What do you want to be when you grow up " + name + "?")
-print("Don't you have to be smarter to be a " + job + "?!! So " + name + ", you're " + age + "... You like to " + fun + " and listen to " + music + ". Good luck being a " + job + ". I'm not kidding. I really despise you " + name ".")
+print("Don't you have to be smarter to be a " + job + "?!! So " + name + ", you're " + age + "... You like to " + fun + " and listen to " + music + ". Good luck being a " + job + ". I'm not kidding. I really despise you " + name + ".")

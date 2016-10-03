@@ -9,3 +9,5 @@ def calcAverage():
 
 Average()
 calcAverage()
+
+
