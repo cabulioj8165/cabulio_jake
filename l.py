@@ -1,6 +1,0 @@
-item1 = input("Please enter item 1:")
-price1 = int(input("Please enter the price:"))
-item2 = input("Please enter item 2:")
-Price2 = int(input("Please enter the price:"))
-item3 = input("Please enter item 3:")
-price3 = int(input("Please enter the price:"))
