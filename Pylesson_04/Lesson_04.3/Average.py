@@ -5,7 +5,7 @@ def Average():
     num3 = float(input("Enter the third average: "))
 
 def calcAverage():
-    print ("The average of the three numbers are" , (num1 + num2 + num3)/3)
+    print("{}{:0.5f}".format("The average of the three numbers are " , (num1 + num2 + num3)/3))
 
 Average()
 calcAverage()
