@@ -72,7 +72,7 @@ print("\n");
 if subtotal > 2000:
     format("discount: " , discount)
     format("subtotal: " , subtotal)
-    
+
 else:
     format("subtotal: " , subtotal)
 
