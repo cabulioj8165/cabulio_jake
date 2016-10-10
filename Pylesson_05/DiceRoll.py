@@ -1,7 +1,6 @@
 import random
 import time
 
-replay = 1
 print("This is a dice roll game.")
 print("The person with the highest score wins.")
 enter = input("Press enter for the numbers.")
@@ -36,10 +35,9 @@ if y < 5:
 elif y > 5:
     print("Thank you for the rate! ")
 
-replay = input("Do you want to play again? 1 for yes, 2 for no. ")
+Y = input("Do you want to play again? Y for yes, N for no. ")
 
-if replay == 1:
-    print("Okay, great! ")
-    replay
-elif replay == 2:
-    print("Okay, see you later! ")
+if Y == Y:
+    print("Okay, great!")
+elif Y == N:
+    print("Okay, bye!")
