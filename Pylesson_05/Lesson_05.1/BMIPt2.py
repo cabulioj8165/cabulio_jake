@@ -4,6 +4,7 @@ start = input("this is a bmi calculator. Press enter.")
 weight = float(input("Please enter what you weigh in pounds. "))
 height = float(input("Please enter your height in inches. "))
 
+bmi = 0
 bmi = (weight/(height*height))*703
 
 condition = ("Undefined")
