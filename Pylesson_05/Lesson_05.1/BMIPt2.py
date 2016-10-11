@@ -1,3 +1,5 @@
+import time
+
 start = input("this is a bmi calculator. Press enter.")
 weight = float(input("Please enter what you weigh in pounds. "))
 height = float(input("Please enter your height in inches. "))
@@ -20,6 +22,14 @@ elif bmi < 39.9:
     condition = ("Very Obese")
 elif bmi > 39.9:
     condition = ("Morbidly Obese")
-
-
+    
+time.sleep(.5)
+print("One second")
+time.sleep(.5)
+print(".")
+time.sleep(.5)
+print(".")
+time.sleep(.5)
+print(".")
+time.sleep(.5)
 print("{}{}{}{:0.2f}{}".format("You are considered " , condition, ". Your bmi is " , bmi , ". " ))
