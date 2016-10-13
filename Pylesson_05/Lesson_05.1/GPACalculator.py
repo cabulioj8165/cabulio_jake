@@ -23,4 +23,13 @@ def calcPoints(grade):
     else:
         return 0
 
-print((calcPoints(math) + calcPoints(science1) +calcPoints(pe) +calcPoints(language1) +calcPoints(elective2b) +calcPoints(english) +calcPoints(elective1b)) / 7)
+GPA = (calcPoints(math) + calcPoints(science1) +calcPoints(pe) +calcPoints(language1) +calcPoints(elective2b) +calcPoints(english) +calcPoints(elective1b)) / 7
+
+if GPA == 4:
+    print("Your GPA is " , GPA , ". That is really good! ")
+elif GPA > 3:
+    print("Your GPA is " , GPA , ". That is not bad. ")
+elif GPA > 2:
+    print("Your GPA is " , GPA , ". You need to study more. ")
+elif GPA > 1:
+    print("Your GPA is " , GPA , ". You need a lot mroe studying. ")

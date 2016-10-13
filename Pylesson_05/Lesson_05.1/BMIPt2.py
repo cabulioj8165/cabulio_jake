@@ -23,14 +23,8 @@ elif bmi < 39.9:
     condition = ("Very Obese")
 elif bmi > 39.9:
     condition = ("Morbidly Obese")
-    
+
 time.sleep(.5)
 print("One second")
-time.sleep(.5)
-print(".")
-time.sleep(.5)
-print(".")
-time.sleep(.5)
-print(".")
-time.sleep(.5)
+time.sleep(2)
 print("{}{}{}{:0.2f}{}".format("You are considered " , condition, ". Your bmi is " , bmi , ". " ))
