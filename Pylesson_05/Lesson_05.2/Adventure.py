@@ -58,12 +58,12 @@ def gameStart():
                            print("*The zombie throws a swing at you.* ")
                            dodge = input("*Do you want to: try to stab him or dodge the swing?* ")
                            if dodge == "dodge the swing":
-<<<<<<< HEAD
+
                                time.sleep(
                                    1)
-=======
+
                                time.sleep(1)
->>>>>>> origin/master
+
                                print("*You have successfully dodged the zombie's attack.* ")
                                time.sleep(1)
                                print("*What attack move do you want to do: ")
@@ -96,10 +96,6 @@ def gameStart():
                                print("Game Over. ")
                        else:
                             print("*You travel to find the citizens but then a ")
-<<<<<<< HEAD
-=======
-                            time.sleep(1)
->>>>>>> origin/master
                             print("boulder breaks the wall and smashes you.*")
                             time.sleep(1)
                             print("*You survive it but your legs are smashed so you can't move* ")
