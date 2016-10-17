@@ -1,9 +1,9 @@
 import time
 
 def gameStart():
-    gameStart = input("This is an adventure game. Tap of Y to play or N if you don't want to. ")
-    if gameStart == "Y":
-       if gameStart == "Y":
+    game = input("This is an adventure game. Tap of Y to play or N if you don't want to. ")
+    if game == "Y":
+       if game == "Y":
            print("Okay, great! Let's get started! ")
            time.sleep(.5)
            fname = input("Let's first ask for your name? ")
