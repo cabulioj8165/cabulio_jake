@@ -54,7 +54,7 @@ time.sleep(1)
 subtotal = price1 + price2 + price3 + price4
 
 print("\n")
-print("{:<>26}{:>>20}".format("__Recipt__", ""))
+print("{:<>26}{:>>20}".format("__Receipt__", ""))
    
 format(item1, price1)
 format(item2, price2)
@@ -64,7 +64,7 @@ format(item4, price4)
 print("\n");
 format("subtotal: " , subtotal)
 
-tax = 0.08 * (price1 + price2 + price3)
+tax = 0.08 * (subtotal)
 
 format("tax: ", tax)
 
