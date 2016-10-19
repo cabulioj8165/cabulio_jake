@@ -7,5 +7,4 @@ average = (num1 + num2 + num3)/3
 def Average():
     print("The average is " , average)
 
-
 Average()
