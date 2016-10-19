@@ -27,17 +27,3 @@ elif num1 < num2:
 elif num1 == num2:
     time.sleep(1)
     print("It is a tie!")
-time.sleep(.5)
-y = int(input("Do you like this game? Please rate from 1-10."))
-
-if y < 5:
-    print("Come on, it was better than that! ")
-elif y > 5:
-    print("Thank you for the rate! ")
-
-Y = input("Do you want to play again? Y for yes, N for no. ")
-
-if Y == Y:
-    print("Okay, great!")
-elif Y == N:
-    print("Okay, bye!")
