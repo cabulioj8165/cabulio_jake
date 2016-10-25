@@ -1,6 +1,7 @@
 output = ""
 for i in range(10, 2, -2):
     output = output + str(i) + " "
+print(output)
 
 need = int(input("Please enter the number of cookies that you need: "))
 batchSize = 25
