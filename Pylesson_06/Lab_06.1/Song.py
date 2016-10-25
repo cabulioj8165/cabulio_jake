@@ -4,7 +4,7 @@ word3 = "Goodbye!"
 def Line(word1, word2, word3):
     for i in range(len(word1)):
         word1 = word1 + " "
-        print(word1)
+        print(word1 + word1 + word1 + word1)
     for i in range(len(word2)-2):
         word2 = word2 + " "
         print(word2 + word2 + word2)
