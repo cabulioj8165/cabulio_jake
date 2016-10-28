@@ -9,5 +9,4 @@ number = float(input("Please enter the number of times the loan is compunded per
 time = float(input("Please enter the life of the loan(in years): "))
 months = time/12
 
-print("The total amount of the loan is" , format(rate, Principle, number, months
-                                                 ))
+print("The total amount of the loan is" , format(rate, Principle, number, months))
