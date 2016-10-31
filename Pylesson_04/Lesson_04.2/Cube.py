@@ -1,9 +1,11 @@
 length = float(input("Enter the length of the cube: "))
 
-sa = length**2 * 6
-
+def SurfArea():
+    global sa, length
+    sa = length**2 * 6
+    return sa
 def surfaceArea():
-    print("The surface area is " , sa)
+    print("The surface area is {:.5f}".format(sa))
 
-
+SurfArea()
 surfaceArea()

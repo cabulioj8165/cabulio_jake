@@ -1,9 +1,12 @@
-def Surf():
-    global side
-    side = float(input("Enter the side of the cube: "))
+length = float(input("Enter the length of the cube: "))
+sa = 0
 
-def calcSurf():
-    print("{}{:.05f}".format("The surface area of the cube is " , 6 * (side**2)))
+def SurfArea():
+    global sa, length
+    sa = length**2 * 6
+def surfaceArea():
+    global sa
+    print("The surface area is {:.5f}".format(sa))
 
-Surf()
-calcSurf()
+SurfArea()
+surfaceArea()

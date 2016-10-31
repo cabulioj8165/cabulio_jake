@@ -1,13 +1,13 @@
+num1 = float(input("What is average 1: "))
+num2 = float(input("What is average 2: "))
+num3 = float(input("What is average 3: "))
+average = 0
 def Average():
-    global num1, num2, num3
-    num1 = float(input("Enter the first average: "))
-    num2 = float(input("Enter the second average: "))
-    num3 = float(input("Enter the third average: "))
-
-def calcAverage():
-    print("{}{:0.5f}".format("The average of the three numbers are " , (num1 + num2 + num3)/3))
+    global average, num1, num2, num3
+    average = (num1 + num2 + num3)/3
+def averagePrint():
+    global average
+    print("The average is {:.5f}".format(average))
 
 Average()
-calcAverage()
-
-
+averagePrint()
