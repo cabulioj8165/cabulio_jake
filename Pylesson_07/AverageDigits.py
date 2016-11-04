@@ -8,4 +8,4 @@ while num > 0:
     average += num % 10
     num = int(num / 10)
 average = average/digits
-print("The average of the digits in" , number , "is" , average)
+print("The average of the digits in" , number , "is {:.5}".format(average))
