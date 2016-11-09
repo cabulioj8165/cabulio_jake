@@ -1,3 +1,6 @@
+
+
+
 def printf(word, number):
     print("{:<6}\t{:10.4f}".format(word, number))
 

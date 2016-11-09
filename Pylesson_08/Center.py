@@ -1,8 +1,14 @@
-words = input("Please enter 3 words: ")
+word1 = input("Please enter a word: ")
+word2 = input("Please enter another word: ")
+word3 = input("Please enter another word: ")
 
-def makeCenter():
-    if len(words) >= 20:
-        return words
+
+def makeCenter(word):
+    if len(word) >= 20:
+        return word
     else:
-        return makeCenter(" " + words + " ")
-print(words)
+        return makeCenter(" " + word + " ")
+
+makeCenter(word1)
+makeCenter(word2)
+makeCenter(word3)
