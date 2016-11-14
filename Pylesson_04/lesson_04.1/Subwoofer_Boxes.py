@@ -10,4 +10,3 @@ length = float(input("Please enter the length of the box in inches: "))
 width = float(input("Please enter the width of the box in inches: "))
 
 print("The box is" , format(height, length, width) , "Cubic feet.")
-

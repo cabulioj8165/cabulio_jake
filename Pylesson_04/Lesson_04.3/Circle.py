@@ -7,6 +7,9 @@ def Area():
 def calcArea():
     global Area
     print("The area of the circle is {:.5f}".format(Area))
+def Print():
+    print("The area of a circle with a radius of" , r , "is {:.5f}".format(Area))
 
 Area()
 calcArea()
+Print()

@@ -29,8 +29,6 @@ tax = 0.08 * (subtotal)
 format("tax: ", tax)
 
 total = subtotal + tax
-
 format("total: ", total)
 
 print("{:_>23}{:_>23}".format("", ""))
-

@@ -8,6 +8,11 @@ def Perim():
 def calcPerim():
     global perim
     print("The perimeter is {:.5f}".format(perim))
+    perim = 2*(length + width)
+
+def Print():
+    print("your rectangle is {:.5f} feet around. ".format(perim))
 
 Perim()
 calcPerim()
+Print()

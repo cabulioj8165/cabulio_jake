@@ -9,4 +9,3 @@ def surfaceArea():
     print("The surface area is {:.5f}".format(sa))
 
 SurfArea()
-surfaceArea()
