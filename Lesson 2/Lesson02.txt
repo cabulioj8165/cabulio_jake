@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<body>
+<table border = "1">
+	<tr>
+		<td><img src = "http://www.cdc.gov/ncbddd/childdevelopment/images/teenager.jpg"></td>
+		<td>John</td>
+		<td>11</td>
+		<td>APCalc</td>
+	</tr>
+	<tr>
+		<td><img src = ""></td>
+		<td>Lynda</td>
+		<td>10</td>
+		<td>Woodshop</td>
+	</tr>
+	<tr>
+		<td><img src = ""></td>
+		<td>Biff</td>
+		<td>12</td>
+		<td>CompPro</td>
+	</tr>
+</table>
+</body>
+</head>
+</html>
