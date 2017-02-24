@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+h1{color: yellow;}
+p{
+	color: purple;
+	font-family: 'Press Start 2P', cursive;
+}
+a{color: red;}
+
+body {
+	background-color:red;
+	color:white;
+}
+h3 {color:#330000;}
+p  {line-height:130%;}
+body {
+	background-color:#c06ded;
+	color:white;
+}
+h3 {color:#330000;}
+p  {line-height:130%;}
+h1{
+	color: purple;
+	text-align: center;
+	background-color: yellow;
+	border-color: purple;
+	border-style: dashed solid;
+	border-width: 2px
+}
+p {
+	color: purple;
+	background-color: #c06ded;
+	border: 1px solid yellow;
+	padding: 2px;
+	margin: 20px;
+	width: 30%;
+}
+a{background-color: yellow;}
+a:link {color: light purple;}
+a:visited {color: blue;}
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+a:active{ background-color: purple;}
+
