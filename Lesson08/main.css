@@ -1,0 +1,16 @@
+* {
+	color:#47327a;
+}
+}
+aside {
+	position: fixed;
+	color: orange;
+}
+article {
+	color: purple;
+	text-align: center;
+	background-color: yellow;
+	border-color: purple;
+	border-style: dashed solid;
+	border-width: 2px
+}
