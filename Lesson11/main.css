@@ -4,11 +4,11 @@
 }
 
 h1 {
-	font: bold 20px Tahoma;
+	font: bold 20px Arial;
 }
 
 h2 {
-	font: bold 14px Tahoma;
+	font: bold 14px Arial;
 }
 
 header, section, footer, aside, nav, article, hgroup {
@@ -31,13 +31,13 @@ body {
 
 #topHeader {
 	background: yellow;
-	border: 3px solid black;
+	border: 3px solid green;
 	padding: 20px;
 }
 
 #topMenu {
-	border: red;
-	background: blue;
+	border: orange;
+	background: yellow;
 	color: white;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 #mainSection {
-	border: 1px solid blue;
+	border: 1px solid purple;
 	-webkit-box-flex: 1;
 	margin: 20px;
 	padding: 20px;
@@ -63,10 +63,10 @@ body {
 }
 
 #sideNews {
-	border: 1px solid red;
+	border: 1px solid orange;
 	width: 220px 0px;
 	padding: 30px;
-	background: purple;
+	background: green;
 	-webkit-box-ordinal-group: 1;
 	-webkit-box-flex: 1;
 }
