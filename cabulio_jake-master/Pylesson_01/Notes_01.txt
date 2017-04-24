@@ -1,0 +1,17 @@
+-Programming is made up of words, symbols, and expressions
+-Programming was created by Guido van Rossum in the Netherlands in the 1980s
+-The programming languages allow people to communicate with computers to give them instructions
+-Every programming language has it's own mechanism for translating
+-Languages like C use a compiler that the source code into machine code
+-They are called compiled languages
+-Some languages use an interpreter to translate source code
+-They are called interpreted languages which are usually more simple and efficient to develop with
+-Python uses characteristics of both compiled and interpreted languages
+-Their code is compiled not into machine code
+-Python compiles the source code into bytecode
+-Bytecode is the intermediate between source code and the computer's processor
+-When the compile code is executed, the Python interpreter translates the bytecode into machine code when it's running
+-This allows Python to have some advantages of both compiled and interpreted languages
+-Programs are text files
+-To change the text document into python, make the .txt into .py
+-Then to edit the program, right click the file and select "Edit with Idle"

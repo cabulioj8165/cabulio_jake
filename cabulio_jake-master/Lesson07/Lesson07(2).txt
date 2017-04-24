@@ -1,0 +1,15 @@
+<html>
+<head>
+	<style type = "text/css">
+		img {
+			max-height: 200px;
+			max-width 200px;
+		}
+	</style>
+</head>
+<body>
+	<img src = "https://images.solecollector.com/complex/image/upload/lextdk22wqwhbcj2h05c.jpg"/>
+	<img src = "http://iqbkkd2tcm3u6mnv1c41azk6.wpengine.netdna-cdn.com/files/2016/11/nike-1-10-950x507.jpg"/>
+	<img src = "http://sneakernews.com/wp-content/uploads/2016/04/nike-kobe-11-carpe-diem-2.jpg"/>
+</body>
+</html>

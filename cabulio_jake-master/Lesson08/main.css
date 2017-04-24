@@ -1,0 +1,30 @@
+* {
+	color:#47327a;
+}
+aside {
+	position: fixed;
+	color: red;
+	border-color: red;
+	border-style: dashed solid;
+	border-width: 1px;
+	background-color: #f8fc8a;
+}
+article {
+	color: purple;
+	text-align: center;
+	background-color: yellow;
+	border-color: purple;
+	border-style: dashed solid;
+	border-width: 2px;
+}
+nav {
+	text-align: left;
+	color: red;
+	border-width: 4px;
+	border-style: solid;
+	border-color: blue;
+}
+footer {
+	color: #874883;
+	text-align: right;
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<form>
+		User Name: <input type = "text"/><br/><br/>
+		Password: <input type = "password"/><br/><br/>
+		<input type = "submit" value = "Submit!" />
+	</form>
+	<script type = "text/javascript">
+		var x = document.forms.length;
+		document.write(x());
+	</script>
+</body>
+</html>
